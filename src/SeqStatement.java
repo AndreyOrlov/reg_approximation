@@ -7,5 +7,5 @@
  */
 public interface SeqStatement extends Statement{
     Statement getFirst();
-    Statement getLeft();
+    Statement getSecond();
 }

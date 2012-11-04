@@ -1,11 +1,10 @@
 /**
  * Created with IntelliJ IDEA.
  * User: andrey
- * Date: 26.10.12
- * Time: 22:14
+ * Date: 03.11.12
+ * Time: 15:24
  * To change this template use File | Settings | File Templates.
  */
-public interface Assign extends Statement{
-    String getDst();
-    Expression getSrc();
+public interface Write extends Statement{
+    Expression getExpression();
 }
