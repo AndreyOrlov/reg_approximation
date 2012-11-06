@@ -128,4 +128,8 @@ public class StatementImpl implements Statement {
             return "Write (" + myExpr.toString() + ")";
         }
     }
+
+    public static class Skip extends StatementImpl implements Statement.Skip {
+
+    }
 }
